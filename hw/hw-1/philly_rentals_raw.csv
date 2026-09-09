@@ -1,0 +1,32 @@
+listing_id,neighborhood,bedrooms,bathrooms,sqft,rent
+R-2001,Fishtown,1,1,620,"$1,450"
+R-2002,Manayunk,2,1,890,1750
+R-2003,University City,1,1,540,"$1,395"
+R-2004,fishtown,2,1,845,"1,900"
+R-2005,Northern Liberties,3,2,1240,"$2,750"
+R-2006,Old City,1,1,600,1650
+R-2007,Manayunk,,1,710,"$1,525"
+R-2008,FISHTOWN,2,1.5,930,"2,050"
+R-2009,University City,1,1,820,"$1,875"
+R-2010,Old City,2,2,980,2400
+R-2011,Northern Liberties,1,1,575,"$1,600"
+R-2012,Manayunk,3,2,1310,"2,395"
+R-2013,Fishtown ,1,1,610,"$1,475"
+R-2014,University City,N/A,1,650,1550
+R-2015,Old City,1,1,560,"$1,700"
+R-2016,Northern Liberties,2,1,870,"1,950"
+R-2017,Manayunk,1,1,665,"$1,400"
+R-2018,Fishtown,2,1,905,1825
+R-2019,University City,3,2,1150,"$2,300"
+R-2020,Old City,unknown,1,590,"1,625"
+R-2021,Northern Liberties,2,1.5,915,"$2,100"
+R-2022,Manayunk,2,1,860,1700
+R-2023,fishtown,3,2,1195,"$2,650"
+R-2024,University City,1,1,525,"1,340"
+R-2025,Old City,2,1,940,$0
+R-2026,Northern Liberties,1,1,605,"1,575"
+R-2027,Manayunk,3,2,1080,"$2,250"
+R-2028,Fishtown,2,1,880,"1,880"
+R-2029,University City,2,1.5,835,"$1,990"
+R-2030,Old City,3,2,1265,"2,850"
+TOTAL,,,,26385,"$54,395"

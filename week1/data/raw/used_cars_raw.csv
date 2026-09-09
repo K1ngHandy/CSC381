@@ -1,0 +1,46 @@
+listing_id,make,model,year,price,mileage,color,transmission,date_listed,seller
+L-1001,Toyota,Camry,2015,"$12,500","78,000 mi",Silver,Automatic,2026-08-01,CarMax
+L-1002,toyota,Corolla ,2018,14750,"52,300 mi",,auto,08/03/2026,Private
+L-1003,Honda,Civic,2105,"$9,800","96,000 mi",Blue,Manual,"Aug 5, 2026",Private
+L-1004,TOYOTA,RAV4,2019,"$21,000","41,500 km",Red,A,2026-08-05,Dealer
+L-1005,Toyata,Camry,2016,"11,900.00","88,000 mi",N/A,Automatic,08/07/2026,CarMax
+L-1006,Ford,F-150,2017,1,"120,000 mi",White,auto,2026-08-08,Auction
+L-1007,Honda,Accord,'17,"$16,200",-4500,unknown,M,"Aug 9, 2026",Private
+L-1008,Ford ,Escape,2020,"$19,450","33,000 mi",-,Automatic,2026-08-10,Dealer
+L-1009,Chevrolet,Malibu,2014,0,"142,000 mi",Gray,auto,08/11/2026,Private
+L-1010,Honda,Civic,2018,"$17,300","44,000 mi",Black,Manual,2026-08-12,Dealer
+L-1010,Honda,Civic,2018,"$16,900","44,000 mi",Black,Manual,2026-08-12,Dealer
+L-1011,Nissan,Altima,2016,"$10,750","91,200 mi",Silver,Automatic,2026-08-12,Private
+L-1012,honda,CR-V,2019,"$23,100","38,400 mi",White,auto,08/13/2026,Dealer
+L-1013,Toyota,Highlander,2015,"$18,900","104,000 mi",,Automatic,"Aug 13, 2026",CarMax
+L-1014,Ford,Focus,2013,"$6,400","135,500 mi",Blue,M,2026-08-14,Private
+L-1015,Chevrolet,Equinox,2018,"$16,000","61,000 km",Red,Automatic,08/14/2026,Dealer
+L-1016,TOYOTA ,Camry,2017,"$14,200","72,000 mi",N/A,A,2026-08-15,Private
+L-1017,Honda,Odyssey,2016,"$15,750","98,300 mi",Gray,auto,"Aug 15, 2026",CarMax
+L-1018,Nissan,Rogue,2020,"$21,800","29,000 mi",Black,Automatic,2026-08-16,Dealer
+L-1019,Ford,Fusion,2014,"7,250.00","128,000 mi",unknown,M,08/16/2026,Private
+L-1020,Toyota,Tacoma,2019,"$32,400","45,600 mi",Silver,Manual,2026-08-17,Dealer
+L-1021,Hyundai,Elantra,2018,"$13,300","58,000 mi",Blue,auto,"Aug 17, 2026",Private
+L-1022,Honda,Pilot,2017,"$20,100","83,700 mi",-,Automatic,2026-08-18,CarMax
+L-1023,Chevy,Silverado,2016,"$24,900","112,000 mi",White,A,08/18/2026,Auction
+L-1024,Toyata,Corolla,2020,"$18,600","31,200 mi",Gray,Automatic,2026-08-19,Dealer
+L-1025,Ford,Explorer,2015,2,"149,000 mi",Black,auto,"Aug 19, 2026",Auction
+L-1026,Nissan,Sentra,2019,"$14,900","42,800 mi",Red,Manual,2026-08-20,Private
+L-1027,honda,Civic,2021,"$22,400","18,900 mi",White,Automatic,08/20/2026,Dealer
+L-1028,Toyota,Prius,2018,"$19,300","67,500 km",Silver,auto,2026-08-21,CarMax
+L-1029,Hyundai,Tucson,2017,"$15,200","89,400 mi",,M,"Aug 21, 2026",Private
+L-1030,Ford,F-150,1015,"$27,800","54,000 mi",Blue,Automatic,2026-08-22,Dealer
+L-1031,Chevrolet,Cruze,2015,"$8,900","121,300 mi",Gray,auto,08/22/2026,Private
+L-1032,Toyota,4Runner,2019,"$34,100","39,700 mi",Black,A,2026-08-23,Dealer
+L-1033,Honda ,Accord,2016,"$13,850",-1200,N/A,Automatic,"Aug 23, 2026",Private
+L-1034,Nissan,Murano,2018,"$18,700","71,000 mi",White,auto,2026-08-24,CarMax
+L-1035,Ford,Ranger,2020,"$26,300","27,400 mi",Red,Manual,08/24/2026,Dealer
+L-1036,toyota,Sienna,2014,"$11,400","138,000 mi",Silver,Automatic,2026-08-24,Private
+L-1037,Hyundai,Santa Fe,2019,"$20,900","46,200 mi",unknown,A,"Aug 24, 2026",Dealer
+L-1038,Honda,HR-V,2020,"$19,800","33,900 mi",Blue,auto,2026-08-25,CarMax
+L-1039,Chevrolet,Traverse,2017,"$17,600","95,100 km",Gray,Automatic,08/25/2026,Private
+L-1040,Ford,Mustang,2018,"$25,400","41,000 mi",Red,Manual,2026-08-25,Dealer
+L-1041,Toyota,Camry,2015,"$12,500","78,000 mi",Silver,Automatic,2026-08-01,CarMax
+L-1042,Nissan,Frontier,2016,"$16,850","103,000 mi",-,auto,"Aug 25, 2026",Auction
+L-1043,Honda,Fit,2019,"$14,100","36,600 mi",White,A,2026-08-26,Private
+TOTAL,,,,"$757,650",,,,,
