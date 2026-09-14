@@ -60,7 +60,7 @@ In this order:
 2. **Make `rent` a real number.** Check: `df['rent'].dtype` is no longer `object`.
 3. **Clean `neighborhood`.** Check: you end up with five neighborhoods, not eight.
 4. **Find every missing `bedrooms` value.** This file says "we do not know" in
-   three different ways and pandas only recognises two of them, so `isna()`
+   three different ways and pandas only recognizes two of them, so `isna()`
    under-reports. Run `df['bedrooms'].value_counts()` to see the third. Turn all
    three into real missing values with `replace()`, then make the column numeric.
 
