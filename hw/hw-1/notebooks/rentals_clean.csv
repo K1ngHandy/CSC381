@@ -1,0 +1,31 @@
+listing_id,neighborhood,bedrooms,bathrooms,sqft,rent
+R-2001,Fishtown,1.0,1.0,620,1450.0
+R-2002,Manayunk,2.0,1.0,890,1750.0
+R-2003,University City,1.0,1.0,540,1395.0
+R-2004,Fishtown,2.0,1.0,845,1900.0
+R-2005,Northern Liberties,3.0,2.0,1240,2750.0
+R-2006,Old City,1.0,1.0,600,1650.0
+R-2007,Manayunk,2.0,1.0,710,1525.0
+R-2008,Fishtown,2.0,1.5,930,2050.0
+R-2009,University City,1.0,1.0,820,1875.0
+R-2010,Old City,2.0,2.0,980,2400.0
+R-2011,Northern Liberties,1.0,1.0,575,1600.0
+R-2012,Manayunk,3.0,2.0,1310,2395.0
+R-2013,Fishtown,1.0,1.0,610,1475.0
+R-2014,University City,1.0,1.0,650,1550.0
+R-2015,Old City,1.0,1.0,560,1700.0
+R-2016,Northern Liberties,2.0,1.0,870,1950.0
+R-2017,Manayunk,1.0,1.0,665,1400.0
+R-2018,Fishtown,2.0,1.0,905,1825.0
+R-2019,University City,3.0,2.0,1150,2300.0
+R-2020,Old City,2.0,1.0,590,1625.0
+R-2021,Northern Liberties,2.0,1.5,915,2100.0
+R-2022,Manayunk,2.0,1.0,860,1700.0
+R-2023,Fishtown,3.0,2.0,1195,2650.0
+R-2024,University City,1.0,1.0,525,1340.0
+R-2025,Old City,2.0,1.0,940,0.0
+R-2026,Northern Liberties,1.0,1.0,605,1575.0
+R-2027,Manayunk,3.0,2.0,1080,2250.0
+R-2028,Fishtown,2.0,1.0,880,1880.0
+R-2029,University City,2.0,1.5,835,1990.0
+R-2030,Old City,3.0,2.0,1265,2850.0
