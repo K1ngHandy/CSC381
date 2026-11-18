@@ -1,0 +1,323 @@
+{
+ "scores": [
+  {
+   "model": "Baseline (majority class)",
+   "accuracy": 0.68,
+   "f1": 0.0,
+   "auc": 0.5
+  },
+  {
+   "model": "Logistic regression",
+   "accuracy": 0.84,
+   "f1": 0.736,
+   "auc": 0.902
+  },
+  {
+   "model": "Random forest",
+   "accuracy": 0.833,
+   "f1": 0.721,
+   "auc": 0.893
+  },
+  {
+   "model": "Gradient boosting (ours)",
+   "accuracy": 0.839,
+   "f1": 0.736,
+   "auc": 0.901
+  }
+ ],
+ "n_train": 75000,
+ "n_test": 25000,
+ "n_all": 100000,
+ "base_rate": 0.32,
+ "base_logodds": -1.275,
+ "ranking": [
+  {
+   "col": "gpa_semester_1",
+   "name": "gpa_semester_1",
+   "mean_abs_shap": 0.78
+  },
+  {
+   "col": "gpa_semester_2",
+   "name": "gpa_semester_2",
+   "mean_abs_shap": 0.407
+  },
+  {
+   "col": "attendance_rate",
+   "name": "attendance_rate",
+   "mean_abs_shap": 0.32
+  },
+  {
+   "col": "tuition_up_to_date",
+   "name": "tuition_up_to_date",
+   "mean_abs_shap": 0.278
+  },
+  {
+   "col": "family_income_level_Low",
+   "name": "family_income_level_Low",
+   "mean_abs_shap": 0.239
+  },
+  {
+   "col": "lms_logins_per_week",
+   "name": "lms_logins_per_week",
+   "mean_abs_shap": 0.229
+  },
+  {
+   "col": "units_failed",
+   "name": "units_failed",
+   "mean_abs_shap": 0.213
+  },
+  {
+   "col": "missed_deadlines",
+   "name": "missed_deadlines",
+   "mean_abs_shap": 0.21
+  },
+  {
+   "col": "assignments_submitted_rate",
+   "name": "assignments_submitted_rate",
+   "mean_abs_shap": 0.206
+  },
+  {
+   "col": "weekly_work_hours",
+   "name": "weekly_work_hours",
+   "mean_abs_shap": 0.188
+  },
+  {
+   "col": "stress_level",
+   "name": "stress_level",
+   "mean_abs_shap": 0.176
+  },
+  {
+   "col": "scholarship_holder",
+   "name": "scholarship_holder",
+   "mean_abs_shap": 0.174
+  },
+  {
+   "col": "library_visits_per_month",
+   "name": "library_visits_per_month",
+   "mean_abs_shap": 0.153
+  },
+  {
+   "col": "first_generation",
+   "name": "first_generation",
+   "mean_abs_shap": 0.141
+  },
+  {
+   "col": "extracurricular_activities",
+   "name": "extracurricular_activities",
+   "mean_abs_shap": 0.107
+  },
+  {
+   "col": "satisfaction_score",
+   "name": "satisfaction_score",
+   "mean_abs_shap": 0.096
+  },
+  {
+   "col": "family_income_level_Middle",
+   "name": "family_income_level_Middle",
+   "mean_abs_shap": 0.085
+  },
+  {
+   "col": "semester",
+   "name": "semester",
+   "mean_abs_shap": 0.07
+  },
+  {
+   "col": "admission_grade",
+   "name": "admission_grade",
+   "mean_abs_shap": 0.062
+  },
+  {
+   "col": "sleep_hours",
+   "name": "sleep_hours",
+   "mean_abs_shap": 0.047
+  },
+  {
+   "col": "study_mode_Part-time",
+   "name": "study_mode_Part-time",
+   "mean_abs_shap": 0.036
+  },
+  {
+   "col": "previous_qualification_grade",
+   "name": "previous_qualification_grade",
+   "mean_abs_shap": 0.024
+  },
+  {
+   "col": "commute_time_mins",
+   "name": "commute_time_mins",
+   "mean_abs_shap": 0.02
+  },
+  {
+   "col": "disability_status",
+   "name": "disability_status",
+   "mean_abs_shap": 0.016
+  },
+  {
+   "col": "units_passed",
+   "name": "units_passed",
+   "mean_abs_shap": 0.014
+  },
+  {
+   "col": "age",
+   "name": "age",
+   "mean_abs_shap": 0.013
+  },
+  {
+   "col": "units_enrolled",
+   "name": "units_enrolled",
+   "mean_abs_shap": 0.013
+  },
+  {
+   "col": "study_mode_Online",
+   "name": "study_mode_Online",
+   "mean_abs_shap": 0.009
+  },
+  {
+   "col": "nationality_Mexico",
+   "name": "nationality_Mexico",
+   "mean_abs_shap": 0.002
+  },
+  {
+   "col": "international_student",
+   "name": "international_student",
+   "mean_abs_shap": 0.002
+  },
+  {
+   "col": "nationality_USA",
+   "name": "nationality_USA",
+   "mean_abs_shap": 0.002
+  },
+  {
+   "col": "gender_Other",
+   "name": "gender_Other",
+   "mean_abs_shap": 0.002
+  },
+  {
+   "col": "nationality_Canada",
+   "name": "nationality_Canada",
+   "mean_abs_shap": 0.002
+  },
+  {
+   "col": "nationality_Philippines",
+   "name": "nationality_Philippines",
+   "mean_abs_shap": 0.001
+  },
+  {
+   "col": "course_type_Business",
+   "name": "course_type_Business",
+   "mean_abs_shap": 0.001
+  },
+  {
+   "col": "nationality_Indonesia",
+   "name": "nationality_Indonesia",
+   "mean_abs_shap": 0.001
+  },
+  {
+   "col": "nationality_UK",
+   "name": "nationality_UK",
+   "mean_abs_shap": 0.001
+  },
+  {
+   "col": "nationality_Germany",
+   "name": "nationality_Germany",
+   "mean_abs_shap": 0.001
+  },
+  {
+   "col": "gender_Male",
+   "name": "gender_Male",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "nationality_Nigeria",
+   "name": "nationality_Nigeria",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "nationality_China",
+   "name": "nationality_China",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "nationality_Pakistan",
+   "name": "nationality_Pakistan",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "course_type_STEM",
+   "name": "course_type_STEM",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "part_time_job",
+   "name": "part_time_job",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "nationality_Egypt",
+   "name": "nationality_Egypt",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "nationality_Brazil",
+   "name": "nationality_Brazil",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "mental_health_support",
+   "name": "mental_health_support",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "nationality_India",
+   "name": "nationality_India",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "nationality_South Korea",
+   "name": "nationality_South Korea",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "course_type_Health Sciences",
+   "name": "course_type_Health Sciences",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "col": "course_type_Law & Social Sciences",
+   "name": "course_type_Law & Social Sciences",
+   "mean_abs_shap": 0.0
+  }
+ ],
+ "tuition_gap": {
+  "up_to_date_1": 0.287,
+  "up_to_date_0": 0.442
+ },
+ "part_time_gap": {
+  "job_1": 0.398,
+  "job_0": 0.247
+ },
+ "attendance_dropout": {
+  "<60%": 0.527,
+  "60-75%": 0.367,
+  "75-90%": 0.261,
+  "90-100%": 0.162
+ },
+ "gpa1_dropout": {
+  "<1.5": 0.877,
+  "1.5-2.0": 0.649,
+  "2.0-2.5": 0.392,
+  "2.5-3.0": 0.186,
+  "3.0-4.0": 0.053
+ },
+ "stress_dropout": {
+  "1": 0.17,
+  "2": 0.213,
+  "3": 0.226,
+  "4": 0.247,
+  "5": 0.28,
+  "6": 0.307,
+  "7": 0.334,
+  "8": 0.354,
+  "9": 0.392,
+  "10": 0.435
+ }
+}

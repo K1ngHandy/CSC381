@@ -1,0 +1,5 @@
+model,accuracy,f1,auc
+Baseline (majority class),0.68,0.0,0.5
+Logistic regression,0.84,0.736,0.902
+Random forest,0.833,0.721,0.893
+Gradient boosting (ours),0.839,0.736,0.901

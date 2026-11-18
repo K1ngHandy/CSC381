@@ -1,0 +1,140 @@
+{
+ "scores": [
+  {
+   "model": "Baseline (always guess the average)",
+   "MAE": 5.16,
+   "R2": -0.23
+  },
+  {
+   "model": "Linear regression",
+   "MAE": 3.04,
+   "R2": 0.58
+  },
+  {
+   "model": "Random forest (Report 2)",
+   "MAE": 1.72,
+   "R2": 0.84
+  },
+  {
+   "model": "Gradient boosting (ours)",
+   "MAE": 1.83,
+   "R2": 0.84
+  }
+ ],
+ "n_train": 39520,
+ "n_test": 6665,
+ "n_all": 46185,
+ "base": 20.6,
+ "ranking": [
+  {
+   "col": "displ",
+   "name": "Engine size (L)",
+   "mean_abs_shap": 2.13
+  },
+  {
+   "col": "year",
+   "name": "Model year",
+   "mean_abs_shap": 1.67
+  },
+  {
+   "col": "cylinders",
+   "name": "Cylinders",
+   "mean_abs_shap": 1.35
+  },
+  {
+   "col": "kind",
+   "name": "Body type",
+   "mean_abs_shap": 0.86
+  },
+  {
+   "col": "turbo",
+   "name": "Turbo",
+   "mean_abs_shap": 0.63
+  },
+  {
+   "col": "all_wheel",
+   "name": "All-wheel drive",
+   "mean_abs_shap": 0.44
+  },
+  {
+   "col": "hybrid",
+   "name": "Hybrid",
+   "mean_abs_shap": 0.38
+  },
+  {
+   "col": "manual",
+   "name": "Manual transmission",
+   "mean_abs_shap": 0.16
+  }
+ ],
+ "engine_groups": {
+  "2.0 or less": 3.5,
+  "2.1-2.5": 0.6,
+  "2.6-3.0": -0.5,
+  "3.1-3.5": -0.9,
+  "3.6-4.0": -1.9,
+  "4.1-5.0": -2.5,
+  "over 5.0": -4.0
+ },
+ "hybrid_yes": 5.1,
+ "hybrid_share": 3.4,
+ "turbo_yes": -1.3,
+ "turbo_share": 22.4,
+ "avg_mpg": {
+  "Car": 22.3,
+  "Pickup": 16.6,
+  "SUV": 20.3,
+  "Van/other": 16.5
+ },
+ "avg_displ": {
+  "Car": 2.9,
+  "Pickup": 4.1,
+  "SUV": 3.4,
+  "Van/other": 3.8
+ },
+ "gaps": {
+  "Pickup": {
+   "total": -5.6,
+   "parts": {
+    "Engine size (L)": -2.6,
+    "Body type": -1.6,
+    "Cylinders": -1.0,
+    "Model year": -0.3,
+    "All-wheel drive": -0.3,
+    "Hybrid": -0.0,
+    "Manual transmission": 0.0,
+    "Turbo": 0.2
+   }
+  },
+  "SUV": {
+   "total": -2.0,
+   "parts": {
+    "Body type": -1.5,
+    "Engine size (L)": -1.1,
+    "All-wheel drive": -0.5,
+    "Cylinders": -0.3,
+    "Turbo": -0.1,
+    "Manual transmission": 0.1,
+    "Hybrid": 0.2,
+    "Model year": 1.3
+   }
+  }
+ },
+ "car": {
+  "name": "2025 Toyota RAV4 Hybrid AWD",
+  "actual": 39,
+  "pred": 36.3,
+  "shap": {
+   "Model year": 3.8,
+   "Engine size (L)": 1.6,
+   "Cylinders": 3.1,
+   "All-wheel drive": -1.1,
+   "Manual transmission": 0.5,
+   "Turbo": 2.2,
+   "Hybrid": 6.4,
+   "Pickup": 0.3,
+   "SUV": -1.3,
+   "Van/other": 0.2
+  }
+ }
+}

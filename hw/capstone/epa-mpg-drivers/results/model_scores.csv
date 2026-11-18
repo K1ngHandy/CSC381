@@ -1,0 +1,5 @@
+model,MAE,R2
+Baseline (always guess the average),5.16,-0.23
+Linear regression,3.04,0.58
+Random forest (Report 2),1.72,0.84
+Gradient boosting (ours),1.83,0.84

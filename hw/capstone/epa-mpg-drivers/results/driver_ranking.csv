@@ -1,0 +1,9 @@
+col,name,mean_abs_shap
+displ,Engine size (L),2.13
+year,Model year,1.67
+cylinders,Cylinders,1.35
+kind,Body type,0.86
+turbo,Turbo,0.63
+all_wheel,All-wheel drive,0.44
+hybrid,Hybrid,0.38
+manual,Manual transmission,0.16
